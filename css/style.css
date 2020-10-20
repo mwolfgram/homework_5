@@ -206,13 +206,13 @@ header{
 
 @media print {
   .card {
-    flex-basis: 200px;
-  }
-  header{
-    align-items: center;
+    flex-basis: 225px;
   }
   body{
     background-image: none;
+  }
+  header{
+    align-items: center;
   }
   .pricing{
     align-items: flex-start;
