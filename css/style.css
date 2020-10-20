@@ -208,9 +208,28 @@ header{
   .card {
     flex-basis: 200px;
   }
-  /*Your code here again.*/
-  /*You will want four selectors*/
+  header{
+    align-items: center;
+  }
+  body{
+    background-image: none;
+  }
+  .pricing{
+    align-items: flex-start;
+  }
+  .gallery, #gallery{
+    display: none;
+  }
+  footer{
+    display: block;
+  }
 }
 
 /*Your code here again.*/
 /*Add media query to handle reduced-motion*/
+
+@media screen and (prefers-reduced-motion: reduce) {
+  #logo {
+    animation: none;
+  }
+}
